@@ -10,6 +10,8 @@ import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact";
 import CarEvaluation from "../pages/CarEvaluation";
 import SellMyCar from "../pages/SellMyCar";
+import SignIn from "../pages/SignIn";
+import SignUp from "../pages/SignUp";
 
 const Routers = () => {
 	return (
@@ -25,6 +27,8 @@ const Routers = () => {
 			<Route path="/contact" element={<Contact />} />
 			<Route path="/sellMyCar" element={<SellMyCar />} />
 			<Route path="/carEvaluation" element={<CarEvaluation />} />
+			<Route path="/signIn" element={<SignIn />} />
+			<Route path="/signUp" element={<SignUp />} />
 			<Route path="*" element={<NotFound />} />
 		</Routes>
 	);

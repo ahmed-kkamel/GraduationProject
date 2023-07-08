@@ -30,6 +30,11 @@ const navLinks = [
 		path: "/carEvaluation",
 		display: "Car Evaluation",
 	},
+	// for testing admin page but failed
+	// {
+	// 	path: "/admin",
+	// 	display: "test",
+	// },
 ];
 
 const Header = () => {
@@ -155,11 +160,11 @@ const Header = () => {
 							</div>
 						</div>
 						<div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-							<Link to="#" className=" d-flex align-items-center gap-1">
+							<Link to="/signIn" className=" d-flex align-items-center gap-1">
 								<i class="ri-login-circle-line"></i> Login
 							</Link>
 
-							<Link to="#" className=" d-flex align-items-center gap-1">
+							<Link to="/signUp" className=" d-flex align-items-center gap-1">
 								<i class="ri-user-line"></i> Register
 							</Link>
 						</div>

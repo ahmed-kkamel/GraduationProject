@@ -18,7 +18,6 @@ const carData = [
 		model: "Model 3",
 		price: "100.000 LE",
 		speed: "20kmpl",
-		gps: "GPS Navigation",
 		seatType: "Heated seats",
 		automatic: "Automatic",
 		description:
@@ -34,7 +33,6 @@ const carData = [
 		model: "Model-2022",
 		price: "100.000 LE",
 		speed: "20kmpl",
-		gps: "GPS Navigation",
 		seatType: "Heated seats",
 		automatic: "Automatic",
 		description:
@@ -50,7 +48,6 @@ const carData = [
 		model: "Model-2022",
 		price: "100.000 LE",
 		speed: "20kmpl",
-		gps: "GPS Navigation",
 		seatType: "Heated seats",
 		automatic: "Automatic",
 		description:
@@ -66,7 +63,6 @@ const carData = [
 		model: "Model-2022",
 		price: "100.000 LE",
 		speed: "20kmpl",
-		gps: "GPS Navigation",
 		seatType: "Heated seats",
 		automatic: "Automatic",
 		description:
@@ -82,7 +78,6 @@ const carData = [
 		model: "Model-2022",
 		price: "100.000 LE",
 		speed: "20kmpl",
-		gps: "GPS Navigation",
 		seatType: "Heated seats",
 		automatic: "Automatic",
 		description:
@@ -98,7 +93,6 @@ const carData = [
 		model: "Model-2022",
 		price: "100.000 LE",
 		speed: "20kmpl",
-		gps: "GPS Navigation",
 		seatType: "Heated seats",
 		automatic: "Automatic",
 		description:
@@ -114,7 +108,6 @@ const carData = [
 		model: "Model 3",
 		price: "100.000 LE",
 		speed: "20kmpl",
-		gps: "GPS Navigation",
 		seatType: "Heated seats",
 		automatic: "Automatic",
 		description:
@@ -128,9 +121,22 @@ const carData = [
 		carName: "Rolls Royce Colorado",
 		imgUrl: img08,
 		model: "Model 3",
-		price: 50,
+		price: "100.000 LE",
 		speed: "20kmpl",
-		gps: "GPS Navigation",
+		seatType: "Heated seats",
+		automatic: "Automatic",
+		description:
+			" Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+	},
+	{
+		id: 8,
+		brand: "Colorado",
+		rating: 52,
+		carName: "Rolls Royce Colorado",
+		imgUrl: img08,
+		model: "Model 3",
+		price: "100.000 LE",
+		speed: "20kmpl",
 		seatType: "Heated seats",
 		automatic: "Automatic",
 		description:

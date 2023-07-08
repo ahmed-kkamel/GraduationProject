@@ -1,15 +1,16 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
+import Home from "../pages/Home";
+import About from "../pages/About";
 import CarListing from "../pages/CarListing";
 import CarDetails from "../pages/CarDetails";
 import Blog from "../pages/Blog";
 import BlogDetails from "../pages/BlogDetails";
 import NotFound from "../pages/NotFound";
-import Home from "./../pages/Home";
-import About from "./../pages/About";
+import Contact from "../pages/Contact";
+import CarEvaluation from "../pages/CarEvaluation";
 import SellMyCar from "../pages/SellMyCar";
-import UsedCars from "../pages/UsedCars";
-import CarEvaluation from "../Componants/UI/CarEvaluation";
+
 const Routers = () => {
 	return (
 		<Routes>
@@ -20,11 +21,13 @@ const Routers = () => {
 			<Route path="/cars/:slug" element={<CarDetails />} />
 			<Route path="/blogs" element={<Blog />} />
 			<Route path="/blogs/:slug" element={<BlogDetails />} />
+			<Route path="/contact" element={<Contact />} />
+			<Route path="/contact" element={<Contact />} />
 			<Route path="/sellMyCar" element={<SellMyCar />} />
-			<Route path="/usedCars" element={<UsedCars />} />
 			<Route path="/carEvaluation" element={<CarEvaluation />} />
-			<Route path="/*" element={<NotFound />} />
+			<Route path="*" element={<NotFound />} />
 		</Routes>
 	);
 };
+
 export default Routers;
